@@ -3,6 +3,7 @@ HOMEPAGE = "otto-project.github.io"
 
 SRCREV = "9d0d0c8d23d67f9e42e5a1d348b55c58ddc7f75b"
 SRC_URI = "https://github.com/OTTO-project/OTTO;branch=develop"
+SRC_URI[md5sum] = "27474d23f02ee44fd0e9ffe3d72a60d9"
 PV = "1.0.0+git${SRCPV}"
 
 LICENSE = "MPL-2.0"
