@@ -1,9 +1,8 @@
 DESCRIPTION = "The OTTO core software."
-HOMEPAGE = "https://github.com/topisani/OTTO"
+HOMEPAGE = "otto-project.github.io"
 
-SRCREV = "a68fd2b6783ffee1a019512b12d7b796ceedf550"
-SRC_URI = "git://github.com/adorbs/OTTO;branch=adorbs-develop"
-# SRC_URI = "git:///home/adorbs/OTTO/;protocol=file;branch=adorbs-develop"
+SRCREV = "9d0d0c8d23d67f9e42e5a1d348b55c58ddc7f75b"
+SRC_URI = "https://github.com/OTTO-project/OTTO;branch=develop"
 PV = "1.0.0+git${SRCPV}"
 
 LICENSE = "MPL-2.0"

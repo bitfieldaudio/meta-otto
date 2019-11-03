@@ -1,6 +1,6 @@
 DESCRIPTION ?= "OTTO Startup Script"
 SUMMARY = "Startup Script for the OTTO Synthesizer"
-HOMEPAGE = "https://github.com/adorbs/meta-otto"
+HOMEPAGE = "otto-project.github.io"
 
 LICENSE = "MPL-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=9741c346eef56131163e13b9db1241b3"
