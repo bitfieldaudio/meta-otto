@@ -17,8 +17,6 @@ DEPENDS = "linux-raspberrypi-rt qemuwrapper-cross"
 IMAGE_FEATURES += "splash"
 
 IMAGE_INSTALL += "kernel-modules \
-				rt-tests \
-				hwlatdetect \
 				rpi-fbcp \
 				otto-core \
 				alsa-utils \
@@ -36,11 +34,13 @@ IMAGE_INSTALL += "kernel-modules \
 			    bluez5 \
 			    openssh \
 			    mingetty \
-			    otto-startup \
 "
+#otto-startup 
 
 # Add Extra 100 MB for ???
 IMAGE_ROOTFS_EXTRA_SPACE = "102400"
+INITRAMFS_MAXSIZE = "262144"
+IMAGE_FSTYPES = "tar.bz2 ext3 rpi-sdimg"
 
 LICENSE = "MIT"
 
